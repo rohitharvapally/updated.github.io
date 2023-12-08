@@ -91,17 +91,6 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
-            white-space: nowrap; /* Prevent button from breaking into multiple lines */
-            transition: background-color 0.3s ease; /* Smooth transition on hover */
-        }
-
-        .button:hover {
-            background-color: #333; /* Change color on hover */
-        }
-
-        .button.low-contrast {
-            color: #ED1C24; /* Set text color to the same as background */
-            border: 2px solid #ED1C24; /* Add border for visibility */
         }
 
         input[type="text"] {
@@ -143,7 +132,7 @@
     <section id="accessories">
         <h2>Accessories</h2>
         <p>Enhance your OnePlus experience with our premium accessories.</p>
-        <a href="#accessories" class="button low-contrast">View Accessories</a>
+        <a href="#accessories" class="button">View Accessories</a>
     </section>
 
     <section id="about">
@@ -160,9 +149,13 @@
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" required>
             <br>
-            <input type="submit" value="Submit" class="button low-contrast">
+            <input type="submit" value="Submit" class="button">
         </form>
     </section>
 
     <footer>
         <p>&copy; 2023 OnePlus. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
